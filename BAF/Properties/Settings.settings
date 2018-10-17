@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BAF.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UseRemoteGrid" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Remote_VDISE01071" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.60.221.222:4444/wd/hub</Value>
+    </Setting>
+    <Setting Name="Remote_VDISE01065" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.60.218.54:4444/wd/hub</Value>
+    </Setting>
+    <Setting Name="Remote_SRV13079" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.64.246.48:4444/wd/hub</Value>
+    </Setting>
+    <Setting Name="UseVideoRecording" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

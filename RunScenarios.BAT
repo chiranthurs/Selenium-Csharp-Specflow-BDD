@@ -1,0 +1,1 @@
+cmd /k.\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe BAF\bin\Debug\BAF.dll --where "cat=ProductPlanSingleDataSetExecution"

@@ -1,0 +1,275 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HMOrder",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "HMOrder Flow",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@mytag"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I am in HMOrder HomePage",
+            "line": 5,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "I select season '8-2018'",
+            "line": 6,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I select Department '1024'",
+            "line": 7,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Login_firefox",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Login user as Administrator",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@mytag"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I navigate to application",
+            "line": 6,
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I enter username and password",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I click login",
+            "line": 10,
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I should see user logged in to the application",
+            "line": 11,
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "ProductPlanFeature_chrome",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Create a Product with sell price and save the product",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@ProductPlanChrome"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I Launch Product Plan in 'SIT'",
+            "line": 6,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "I have navigated to Home Page",
+            "line": 7,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I select Psection '02 - H&M+'",
+            "line": 8,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I select Pseason '7-2018'",
+            "line": 9,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I select Pdepartment '1919 - Jersey'",
+            "line": 10,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I enter the Pproduct 'Daisy Lace top'",
+            "line": 11,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I select the Psellprice '25'",
+            "line": 12,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I save the product",
+            "line": 13,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "QPT",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "QPT Flow",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@mytag"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I verify season display",
+            "line": 5,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "I click on store",
+            "line": 6,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I click on online",
+            "line": 7,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I click on All",
+            "line": 8,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "I click on File Menu",
+            "line": 9,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I click on Exit",
+            "line": 10,
+            "result": {
+              "status": "failed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+<Results>
+  <GeneralInfo>
+    <RunStartTime>2018-02-14 15:14:43</RunStartTime>
+    <Timezone>India Standard Time</Timezone>
+    <OrchestrationToolName>domain-</OrchestrationToolName>
+    <ReportTitle>LeanFT Report</ReportTitle>
+  </GeneralInfo>
+  <ReportNode type="Run">
+    <Data>
+      <StartTime>2018-02-14 15:14:43</StartTime>
+      <Duration>101</Duration>
+      <Result>Passed</Result>
+      <ErrorText></ErrorText>
+      <Links></Links>
+      <Extension>
+        <Any>
+          <IconKey>Run</IconKey>
+          <IsHtmlErrorText>true</IsHtmlErrorText>
+        </Any>
+      </Extension>
+      <Name>Run Results</Name>
+      <Environment>
+        <OSInfo><![CDATA[Microsoft Windows NT 6.1.7601 Service Pack 1]]></OSInfo>
+        <HostName>WKS00253</HostName>
+        <NumberOfCores>2</NumberOfCores>
+        <TotalMemory>6139</TotalMemory>
+        <Locale><![CDATA[sv-SE]]></Locale>
+        <Timezone>India Standard Time</Timezone>
+        <User>tempchurs</User>
+      </Environment>
+      <TestedApplication />
+      <ToolName>LeanFT</ToolName>
+      <ToolVersion><![CDATA[14.0]]></ToolVersion>
+      <Description> </Description>
+    </Data>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name><![CDATA[I Launch 'ProductPlan' in 'SIT']]></Name>
+        <Description><![CDATA[INFO]]></Description>
+        <StartTime>2018-02-14 15:14:50</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name>I have navigated to Home Page</Name>
+        <Description><![CDATA[INFO]]></Description>
+        <StartTime>2018-02-14 15:14:58</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name><![CDATA[I select Psection '02 - H&M+']]></Name>
+        <Description><![CDATA[INFO]]></Description>
+        <StartTime>2018-02-14 15:15:00</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name><![CDATA[I select Pseason '9-2019']]></Name>
+        <Description><![CDATA[INFO]]></Description>
+        <StartTime>2018-02-14 15:15:35</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name><![CDATA[I select Pdepartment '1919 - Jersey']]></Name>
+        <Description><![CDATA[INFO]]></Description>
+        <StartTime>2018-02-14 15:16:09</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name><![CDATA[I enter the Pproduct 'AutoTest']]></Name>
+        <Description><![CDATA[INFO]]></Description>
+        <StartTime>2018-02-14 15:16:20</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name><![CDATA[I select the Psellprice '24.99']]></Name>
+        <Description><![CDATA[INFO]]></Description>
+        <StartTime>2018-02-14 15:16:21</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name>I save product from context menu</Name>
+        <Description><![CDATA[INFO]]></Description>
+        <StartTime>2018-02-14 15:16:23</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+    <ReportNode type="CustomStep">
+      <Data>
+        <Name><![CDATA[Scenario: '01 ProductPlan with Single Data Set Chrome' has passed]]></Name>
+        <Description><![CDATA[PASS]]></Description>
+        <StartTime>2018-02-14 15:16:23</StartTime>
+        <Duration>0</Duration>
+        <Result>Passed</Result>
+        <ErrorText></ErrorText>
+        <Links></Links>
+        <Extension>
+          <Any>
+            <IconKey>CustomStep</IconKey>
+            <IsHtmlErrorText>true</IsHtmlErrorText>
+          </Any>
+        </Extension>
+      </Data>
+    </ReportNode>
+  </ReportNode>
+</Results>

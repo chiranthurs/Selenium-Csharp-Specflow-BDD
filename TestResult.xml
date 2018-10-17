@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="8" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2018-02-14 09:44:41Z" end-time="2018-02-14 09:46:25Z" duration="104.056159">
+  <command-line><![CDATA[.\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe  BAF\bin\Debug\BAF.dll --where "cat=ProductPlanSingleDataSetExecution"]]></command-line>
+  <filter>
+    <cat>ProductPlanSingleDataSetExecution</cat>
+  </filter>
+  <test-suite type="SetUpFixture" id="0-1000" name="BAF.dll" fullname="SetupFixture" classname="SetupFixture" runstate="Runnable" testcasecount="8" result="Passed" start-time="2018-02-14 09:44:42Z" end-time="2018-02-14 09:46:25Z" duration="103.100761" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\BDD Demo Framework\BAF" machine-name="WKS00253" user="tempchurs" user-domain="HM" culture="sv-SE" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\BDD Demo Framework\BAF" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="Fixtures" />
+      <property name="_PID" value="7488" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1016" name="BAF" fullname="BAF" runstate="Runnable" testcasecount="8" result="Passed" start-time="2018-02-14 09:44:43Z" end-time="2018-02-14 09:46:23Z" duration="100.726490" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <properties />
+      <test-suite type="TestSuite" id="0-1017" name="Features" fullname="BAF.Features" runstate="Runnable" testcasecount="8" result="Passed" start-time="2018-02-14 09:44:43Z" end-time="2018-02-14 09:46:23Z" duration="100.723812" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestFixture" id="0-1008" name="ProductPlanFeatureTestFeature" fullname="BAF.Features.ProductPlanFeatureTestFeature" classname="BAF.Features.ProductPlanFeatureTestFeature" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-02-14 09:44:43Z" end-time="2018-02-14 09:46:23Z" duration="100.720021" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="Description" value="ProductPlanFeatureTest" />
+            <property name="Category" value="ProductPlanSuite" />
+          </properties>
+          <output><![CDATA[-> Using app.config
+]]></output>
+          <test-case id="0-1009" name="_01ProductPlanWithSingleDataSetChrome" fullname="BAF.Features.ProductPlanFeatureTestFeature._01ProductPlanWithSingleDataSetChrome" methodname="_01ProductPlanWithSingleDataSetChrome" classname="BAF.Features.ProductPlanFeatureTestFeature" runstate="Runnable" seed="471115949" result="Passed" start-time="2018-02-14 09:44:43Z" end-time="2018-02-14 09:46:23Z" duration="100.168972" asserts="0">
+            <properties>
+              <property name="Description" value="01 ProductPlan with Single Data Set Chrome" />
+              <property name="Category" value="ProductPlanSingleDataSetExecution" />
+            </properties>
+            <output><![CDATA[Given I Launch 'ProductPlan' in 'SIT'
+-> done: ProductPlanSteps.givenINavigateToApplicationA("ProductPlan", "SIT") (3,5s)
+When I have navigated to Home Page
+-> done: ProductPlanSteps.selectFullMode() (8,3s)
+And I select Psection '02 - H&M+'
+-> done: ProductPlanSteps.selectSectionA("02 - H&M+") (1,4s)
+And I select Pseason '9-2019'
+-> done: ProductPlanSteps.selectSeasonA("9-2019") (35,4s)
+And I select Pdepartment '1919 - Jersey'
+-> done: ProductPlanSteps.selectDepartmentA("1919 - Jersey") (34,4s)
+And I enter the Pproduct 'AutoTest'
+-> done: ProductPlanSteps.enterProductNameA("AutoTest") (10,7s)
+And I select the Psellprice '24.99'
+-> done: ProductPlanSteps.selectSellPriceA("24.99") (1,0s)
+Then I save product from context menu
+-> done: ProductPlanSteps.saveProduct() (1,5s)
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

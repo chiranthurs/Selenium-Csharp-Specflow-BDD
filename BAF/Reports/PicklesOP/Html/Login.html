@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Login_firefox</title>
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+  initializeToc();
+});
+</script>
+    <!-- We are using Font Awesome - http://fortawesome.github.com/Font-Awesome - licensed under CC BY 3.0 -->
+  </head>
+  <body>
+    <div id="container">
+      <div id="top" />
+      <div id="toc">
+        <p class="tocCollapser" title="Collapse Table of Content">«</p>
+        <ul class="features">
+          <li class="file" id="root">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="file">
+            <a href="HMOrder.html">HMOrder</a>
+            <span class="float-right">
+              <i class="icon-minus-sign failed" title="Failed with Product Plan Test From Pickles UI version 1.0"> </i>
+            </span>
+          </li>
+          <li class="file">
+            <span class="current">Login_firefox</span>
+            <span class="float-right">
+              <i class="icon-ok passed" title="Successful with Product Plan Test From Pickles UI version 1.0"> </i>
+            </span>
+          </li>
+          <li class="file">
+            <a href="ProductPlan.html">ProductPlanFeature_chrome</a>
+            <span class="float-right">
+              <i class="icon-minus-sign failed" title="Failed with Product Plan Test From Pickles UI version 1.0"> </i>
+            </span>
+          </li>
+          <li class="file">
+            <a href="QPT.html">QPT</a>
+            <span class="float-right">
+              <i class="icon-minus-sign failed" title="Failed with Product Plan Test From Pickles UI version 1.0"> </i>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div id="feature">
+        <div class="float-right">
+          <i class="icon-ok passed" title="Successful with Product Plan Test From Pickles UI version 1.0"> </i>
+        </div>
+        <h1>Login_firefox</h1>
+        <div class="description">
+          <p>Check if login functionality works</p>
+        </div>
+        <ul id="scenarios">
+          <li class="scenario">
+            <div class="float-right">
+              <i class="icon-ok passed" title="Successful with Product Plan Test From Pickles UI version 1.0"> </i>
+            </div>
+            <div class="scenario-heading" id="login-user-as-administrator">
+              <p class="tags">Tags: <span>@mytag</span></p>
+              <h2>Login user as Administrator</h2>
+            </div>
+            <div class="steps">
+              <ul>
+                <li class="step">
+                  <span class="keyword">Given </span>I navigate to application</li>
+                <li class="step">
+                  <span class="keyword">And </span>I enter username and password<div class="table_container"><table class="datatable"><thead><tr><th>UserName</th><th>Password</th><th> </th></tr></thead><tbody><tr><td>admin</td><td>admin</td></tr></tbody></table></div></li>
+                <li class="step">
+                  <span class="keyword">And </span>I click login</li>
+                <li class="step">
+                  <span class="keyword">Then </span>I should see user logged in to the application</li>
+              </ul>
+            </div>
+            <a class="scenario-link" href="javascript:showImageLink('login-user-as-administrator')" title="Copy scenario link to clipboard.">
+              <i class="icon-link"> </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="footer">
+        <p>Test results generated for: Product Plan Test From Pickles UI, version 1.0</p>
+        <p>Generated on: 25 januari 2018 18:56:25</p>
+        <p>Produced by Pickles, version 2.17.0.0</p>
+      </div>
+    </div>
+  </body>
+</html>
